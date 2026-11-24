@@ -1,0 +1,26 @@
+{
+  "name": "okie-dokie-pay-dashboard",
+  "version": "1.0.0",
+  "description": "Okie Dokie Pay - Enterprise Campus Communication & Payments ERP Dashboard",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node scripts/dev.js",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps",
+    "build": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps && npm run build",
+    "seed": "python3 backend/scripts/seed.py"
+  },
+  "keywords": [
+    "okie-dokie-pay",
+    "campus-automation",
+    "waba",
+    "mern",
+    "whatsapp-business-api",
+    "erp",
+    "fee-payments"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
