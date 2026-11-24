@@ -16,8 +16,8 @@
 This project processes **68,659 real WhatsApp Business API messages** sent from Okie Dokie's verified campus automation sender (`+91 70156 13714`) across **10+ major educational institutions** (such as *Aggarwal College Ballabgarh*, *Gita Niketan Awasiya Vidyalaya*, *The Milestone School*, *The Genesis School*, and *PKG College of Engineering*).
 
 It satisfies and exceeds all assignment requirements:
-1. **Clients Pe Messages Ja Rahe Hain (Outgoing Messages Hub)**: Full telemetry on all dispatched campus circulars, fee receipts, gate security passes, and attendance alerts with single tick (Sent), double grey tick (Delivered), and double blue tick (Read).
-2. **Replies Aa Rahe Hain (2-Way Live Chat Inbox)**: Real-time WhatsApp Web style 2-way communication where parents reply to attendance alerts, fee receipts, and notices. Includes an **Interactive Parent Reply Simulator** for live demonstration, audio notifications, and **AI Smart Reply Suggestions**.
+1. **Outbound Messaging Telemetry Hub (Dispatched Messages)**: Full real-time telemetry on all dispatched campus circulars, fee receipts, gate security passes, and attendance alerts with WhatsApp status indicators — single grey tick (Sent), double grey tick (Delivered), and double blue tick (Read).
+2. **Bidirectional 2-Way Live Chat Inbox (Incoming Parent Inquiries)**: Real-time WhatsApp Web style two-way communication where parents reply to attendance alerts, fee receipts, and notices. Includes an **Interactive Parent Reply Simulator** for live demonstration, audio chime notifications, and **AI Smart Reply Suggestions**.
 3. **Core Okie Dokie Pay Features**:
    - **Digital Fee Collection & Reconciliation**: Tracking over **₹8.77+ Crores** in verified online fee receipts (`fee_receipt2a`) and pending fee reminders (`stud_due_alert2`).
    - **Campus Gate Security Passes**: Real-time exit pass monitor (`stud_gate_alert3`) with authorized pickup person details and security clearance status.
